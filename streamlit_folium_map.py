@@ -3,7 +3,7 @@ import pandas as pd
 import folium 
 from streamlit_folium import st_folium
 
-url = "https://raw.githubusercontent.com/ilpovirt/streamlit_map/main/GPSdata.csv"
+url = "https://raw.githubusercontent.com/ilpovirt/streamlit_map/main/Location.csv"
 df = pd.read_csv(url)
 
 st.title('My journey to home')
