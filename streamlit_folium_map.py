@@ -26,7 +26,7 @@ df_acc = df_acc.rename(columns={'Time (s)': 'Time'})
 # Calculate step count
 steps = step_count(df_acc, acc_col='acc', time_col='Time')
 
-st.title('My journey to home')
+st.title('Topi Heinämäki')
 
 # Display metrics
 col1, col2, col3 = st.columns(3)
